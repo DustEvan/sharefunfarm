@@ -1,0 +1,242 @@
+<!DOCTYPE html><html><head>
+      <title>Test</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\evan\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.20\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="草莓栽培說明書">🍓草莓栽培說明書🍓 </h1>
+<hr>
+<h2 id="-一-材料準備">📋 一、材料準備 </h2>
+<h3 id="11-盆子">1.1 盆子 </h3>
+<ul>
+<li>建議用6吋，7吋或8吋盆，每盆種1棵（也可用60公分長盆，可種3棵）。</li>
+</ul>
+<h3 id="12-培植土">1.2 培植土 </h3>
+<ul>
+<li>建議使用<strong>泥炭土</strong>（可加珍珠石+蛭石改善透氣，比例：泥炭土：珍珠蛭石 = 100：15）。</li>
+<li>亦可拌入適量<strong>蚯蚓糞</strong> ，改善土質（用量：200克 / 盆）。</li>
+</ul>
+<h3 id="13-基肥">1.3 基肥 </h3>
+<ul>
+<li>每棵20公克開花型有機肥，與培植土混和均勻後種植。</li>
+</ul>
+<p><strong>※注意事項</strong><br>
+1. 培植土偶會產生白色菌絲，此為自然現象（有機肥而來），種植約1周後會自然消失。<br>
+2. 泥炭土、珍珠石、蛭石、有機肥充分攪拌均勻，倒入6吋、7吋（或8吋，或60公分長盆）盆中。<br>
+<strong>3. 盆栽栽培時避免使用化學肥（速效肥），以免傷根。</strong></p>
+<h2 id="️-二-取苗">✂️ 二、取苗 </h2>
+<ul>
+<li>用剪刀剪開膠帶取下每棵苗</li>
+</ul>
+<p><strong>※注意事項</strong><br>
+<strong>1. 從培養缽中倒出種苗，儘量保持培養土完整，不要弄散培植土。</strong><br>
+<strong>2. 苗土可和各種培植土融合，因此可直接種植，不需去除避免傷及根部。</strong></p>
+<h2 id="-三-種植">🌱 三、種植 </h2>
+<ul>
+<li>盆上方培植土挖一洞，將苗置入後（垂果定向柄向內），以培植土覆蓋苗土，需露出芽點。</li>
+</ul>
+<p><strong>※注意事項：</strong><br>
+<strong>1. 收到種苗時，建議應即時移植，提高存活率。</strong><br>
+<strong>2. 第1週，苗因運送及剛進入新環境，種植後盆栽建議可先置於陰涼處（約50%遮陽）。</strong><br>
+3. 剛種植時1週，早晚澆水，保持濕潤。<br>
+4. 可不用保水底盆，避免積水傷根。<br>
+5. 苗之葉片有時較細長，主要是在溫室淨化時間較長之關係，種植後很快變粗壯。<br>
+6. 苗之葉片因運送堆疊，會略有壓痕，此屬正常，栽種後約1週後即會慢慢舒展開來<br>
+　　，第2週根系開展後，會陸續產生新芽。<br>
+7. 草莓性喜濕潤，但不可積水，早或晚澆水1次，需讓水分充分滲入下層。<br>
+<strong>8. 白草莓栽培較適合使用盆栽方式，並請避開上午10時~下午3時之陽光直射。</strong></p>
+<p><strong>※其他注意事項：</strong><br>
+<strong>1. 田中栽培，如陽光太強烈可適度遮陽（50%），提高存活率。<br>
+2. 田中栽培，夏季時先不蓋黑銀布，避免太熱（覆蓋黑銀布時，銀面向上）。<br>
+3. 田中栽培時若使用化肥，應避免太接近根部。</strong></p>
+<h2 id="-四-後續管理">🌿 四、後續管理 </h2>
+<h3 id="41-澆水管理">4.1 澆水管理 </h3>
+<ul>
+<li>每日澆水，保持濕潤，遇下雨則可不澆。</li>
+</ul>
+<h3 id="42-肥料管理">4.2 肥料管理 </h3>
+<h4 id="421-追肥">4.2.1 追肥 </h4>
+<ul>
+<li>每月再追加開花型有機肥一次，每棵約20公克。（以挖小溝埋入為佳）</li>
+<li>有機肥剛施用偶會產生白色黴絲，此為自然現象，自來水澆水1週即會消失。</li>
+</ul>
+<h4 id="422-補充肥料-需要時才補充">4.2.2 補充肥料 （需要時才補充） </h4>
+<p><strong>（1） 鉀肥</strong> - 草莓不甜</p>
+<ul>
+<li>每月1~2次葉面噴灑 ，調配濃度 1：1000倍。（避免中午高溫時噴）</li>
+</ul>
+<p><strong>（2） 磷肥</strong> - 只長葉 不開花 或 開花量少， 葉片紅</p>
+<ul>
+<li>每月1~2次葉面噴灑 ，調配濃度 1：1000倍。（避免中午高溫時噴）</li>
+</ul>
+<p><strong>（3） 鈣鎂肥</strong> - 葉片黑，葉緣焦，芯葉枯萎，裂果，果實軟，果實無法膨大..等現象</p>
+<ul>
+<li>每月1~2次葉面噴灑 ，調配濃度 1：1000倍.（避免中午高溫時噴）</li>
+</ul>
+<p><strong>（4） 微量元素</strong> - 葉片變黃，果實產量少 品質不良</p>
+<ul>
+<li>每月1~2次葉面噴灑 ，調配濃度 1：1000倍。（避免中午高溫時噴）</li>
+</ul>
+<p><strong>※備註：</strong></p>
+<ol>
+<li>補充肥料以單獨使用為宜，間隔至少3天。</li>
+<li>附定量 吸管 或 小湯匙（ 1公克/1平匙） 或大湯匙（20公克/1滿匙）。</li>
+</ol>
+<h3 id="43-植株管理">4.3 植株管理 </h3>
+<ul>
+<li>老葉及匍匐莖需摘除，促進開花結果，並可保持通風，避免孳生病、蟲。</li>
+</ul>
+<h3 id="44-主要病蟲害管理">4.4 主要病蟲害管理 </h3>
+<ul>
+<li>建議以有機無毒方式進行管理，主要以<strong>植物益生菌</strong>及<strong>天然資材</strong>對抗病菌及害蟲之方式。</li>
+<li>（可上網搜尋：<em>木黴菌</em>、<em>柑橘精油</em>、<em>苦楝油之功用</em>）</li>
+</ul>
+<h2 id="-五-病蟲害處理">🦠 五、病蟲害處理 </h2>
+<h3 id="51-菌害">5.1 菌害 </h3>
+<p><strong>症狀：</strong> 會使草莓枯萎。<br>
+<strong>防治方法：</strong> 建議使用<strong>木黴菌</strong>澆灌植株保護草莓根部及植株。</p>
+<p><strong>（木黴菌為有益菌，可防治 炭疽病、白黴、灰黴…等菌害，亦可去除土壤異味、促進生長）</strong></p>
+<h4 id="511-木黴菌">5.1.1 木黴菌 </h4>
+<p><strong>使用方法：</strong><br>
+步驟1： 定量吸管吸木黴菌 3ml。<br>
+步驟2： 滴灌草莓根部， 每株3ml。</p>
+<ul>
+<li>每月滴灌2次。（預防重於治療）</li>
+<li>土中充滿木黴菌， 草莓較不易生病，倒伏。</li>
+</ul>
+<h3 id="52-蟲害">5.2 蟲害 </h3>
+<p><strong>症狀：</strong> 會吃掉果實、葉片。<br>
+<strong>防治方法：</strong> 建議使用<strong>柑橘精油</strong>或<strong>苦楝油</strong>噴灑植株保護。<br>
+<strong>（田間栽培可加噴茶皂素， 防蝸牛、蛞蝓）</strong></p>
+<h4 id="521-柑橘精油">5.2.1 柑橘精油 </h4>
+<p><strong>功效：</strong> 天然植物資材，可防治<strong>白粉病、蚜蟲、二點葉螨、薊馬、螞蟻</strong>…等害蟲之危害。</p>
+<p><strong>使用方法：</strong><br>
+步驟1： 量柑橘精油 2 ml。<br>
+步驟2： 倒入噴霧器中定量至 1000 ml。<br>
+步驟3： 直接對植株葉表，葉背，花苞噴灑</p>
+<ul>
+<li>2周1次，保護草莓植株。（預防重於治療）</li>
+</ul>
+<h4 id="522-苦楝油">5.2.2 苦楝油 </h4>
+<p><strong>功效：</strong> 來自天然植物資材，可驅除<strong>果蠅、葉蟲、二點葉螨、薊馬、螞蟻</strong>….等害蟲之危害。</p>
+<p><strong>使用方法：</strong><br>
+步驟1： 量苦楝油 3 ml。<br>
+步驟2： 倒入噴霧器中定量至 1000 ml。<br>
+步驟3： 直接對植株葉表、葉背、花苞噴灑</p>
+<ul>
+<li>2周1次，保護草莓植株。（預防重於治療）</li>
+</ul>
+<p><strong>※備註：</strong></p>
+<ol>
+<li>冬季低溫苦楝油凝固，可以熱水浴液化後使用</li>
+<li>柑橘精油 與 苦楝油可同時調配使用</li>
+</ol>
+<h2 id="-六-整體操作安排">📅 六、整體操作安排 </h2>
+<table>
+<thead>
+<tr>
+<th>時間/操作</th>
+<th>月初</th>
+<th>月初-月中期間</th>
+<th>月中</th>
+<th>期間</th>
+<th>月底</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>施有機肥（20克/棵）</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>噴柑橘精油（或苦楝油）</td>
+<td></td>
+<td>1.噴柑橘精油（或苦楝油）</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>澆木黴菌</td>
+<td></td>
+<td>2.澆木黴菌</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>視需要補充</td>
+<td>1.鉀肥<br>2.磷肥<br>3.鈣鎂肥<br>4.微量元素</td>
+<td></td>
+<td>1.鉀肥<br>2.磷肥<br>3.鈣鎂肥<br>4.微量元素</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="-七-產品資訊">🛒 七、產品資訊 </h2>
+<p>以下商品可於軒帆農場賣場購買，或開專屬賣場下單：</p>
+<h3 id="71-相關產品">7.1 相關產品 </h3>
+<ul>
+<li>開花型有機肥（0.6公斤， 1.5公斤， 5公斤）</li>
+<li>蚯蚓糞</li>
+<li>咖啡渣</li>
+<li>珍珠蛭石（15公升）</li>
+<li>苦楝油</li>
+<li>柑橘精油（100cc）</li>
+<li>育苗盆（2.5吋）</li>
+<li>育苗叉</li>
+<li>防蟲袋<br>
+（可上蝦皮網站確認最新資訊）</li>
+</ul>
+<h3 id="72-代購商品">7.2 代購商品 </h3>
+<ol>
+<li>磷+鉀肥（500cc）</li>
+<li>鈣鎂+微量元素（1500g）</li>
+<li>茶皂素（1500公克）</li>
+<li>苦楝油（500cc）</li>
+</ol>
+<hr>
+<h2 id="-八-聯絡資訊">📞 八、聯絡資訊 </h2>
+<p><strong>相關問題討論，可透過以下方式聯繫：</strong></p>
+<ul>
+<li><strong>LINE ID：</strong> hsienfuhsieh</li>
+<li><strong>Facebook：</strong> <a href="https%EF%BC%9A//www.facebook.com/sharefunfarm">軒帆農場</a></li>
+<li>**農場位址：**台中市后里區三封路三段629巷7號</li>
+</ul>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
